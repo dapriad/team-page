@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    flex-shrink: 1;
+    align-items: center;
+    flex-basis: 100%;
+    margin: 0 10%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.header-title {
+    flex-basis: 50%;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    flex-basis: 50%;
+}
+
+.header-subtitle-h3 {
+    font-size: 125%;
+}
+
+.header-subtitle-p {
+    font-size: 130%;
+    width: 60%;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.card {
+    position: relative;
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+img {
+    width: 80%;
+    height: 100%;
+}
+
+.position-img {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    flex-basis: 90%;
+    height: 90%;
+}
+
+.name {
+    align-self: baseline;
+    width: 100%;
+    flex-basis: 10%;
+    font-weight: bolder;
+    height: 10%;
+    margin: 15px 0px 20% 0px;
+}
+
+.position {
+    height: 100%;
+}
+
+.text-container {
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+.text-rotated {
+    text-transform: uppercase;
+    text-align: center;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    margin: 30% 0px 0px 0px;
+    padding: 50% 0px 0px 0px;
+}
+
+.footer {
+    color: rgb(169, 169, 169);
+    padding: 0 10px 10px 10px;
+}
+
+.footer-name {
+    text-decoration: underline;
+    color: rgb(184, 184, 184);
+}
