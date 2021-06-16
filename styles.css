@@ -1,4 +1,4 @@
-body {
+* {
     padding: 0;
     margin: 0;
 }
@@ -8,8 +8,7 @@ body {
     flex-flow: column wrap;
     flex-shrink: 1;
     align-items: center;
-    flex-basis: 100%;
-    margin: 0 10%;
+    margin: 0 15%;
 }
 
 .header {
@@ -55,17 +54,24 @@ body {
     flex-flow: column nowrap;
 }
 
+.card:nth-child(2) {
+    margin-top: 10%;
+}
+
+.card:nth-child(5) {
+    margin-top: 10%;
+}
+
 img {
-    width: 80%;
-    height: 100%;
+    width: 18.75rem;
+    height: 25rem;
 }
 
 .position-img {
     display: flex;
     flex-flow: row nowrap;
-    width: 100%;
-    flex-basis: 90%;
-    height: 90%;
+    width: 18.75rem;
+    height: 25rem;
 }
 
 .name {
@@ -75,6 +81,7 @@ img {
     font-weight: bolder;
     height: 10%;
     margin: 15px 0px 20% 0px;
+    font-size: 32px;
 }
 
 .position {
@@ -104,4 +111,41 @@ img {
 .footer-name {
     text-decoration: underline;
     color: rgb(184, 184, 184);
+}
+
+@media (max-width: 1200px) {
+    .header {
+        flex-flow: column wrap;
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .header-subtitle {
+        margin-top: 10%;
+    }
+    .header-subtitle-p {
+        width: 100%;
+    }
+    .card {
+        flex-basis: 50%;
+    }
+    .card:nth-child(2) {
+        margin-top: 10%;
+    }
+    .card:nth-child(4) {
+        margin-top: 10%;
+    }
+    .card:nth-child(6) {
+        margin-top: 10%;
+    }
+    .card:nth-child(5) {
+        margin-top: 0%;
+    }
+    .name {
+        align-self: baseline;
+        width: 100%;
+        flex-basis: 10%;
+        font-weight: bolder;
+        height: 10%;
+        margin: 15px 0px 10% 0px;
+    }
 }
