@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://dapriad.github.io/team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/dapriad/team-page">
+    <a href="https://github.com/dapriad/team-page">
       Solution
     </a>
     <span> | </span>
